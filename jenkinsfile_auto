@@ -1,0 +1,23 @@
+node() {
+stage('donwload'){
+ echo 'Building'
+ bat 'robot --outputdir e:\\studytemp\\testsuite E:\\studytemp\\testsuite'
+ 
+}
+
+
+stage('deploy env'){
+ echo 'deploying'
+ 
+}
+
+stage('tesing'){
+ echo 'testing'
+}
+ stage('send report'){
+ echo 'releasing'
+mail bcc: '', body: '''Hi all,
+here is the testing reuslt
+''', cc: '', from: '171639931@qq.com', replyTo: '', subject: 'Inspure_automation_testing result', to: '171639931@qq.com'
+}
+}
