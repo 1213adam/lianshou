@@ -3,7 +3,7 @@ stage('donwload'){
  echo 'Building'
 // bat 'robot --outputdir e:\\studytemp\\testsuite E:\\studytemp\\testsuite'
 //sh 'echo testing>>test.txt'
-sh 'ls'
+
 }
 
 
