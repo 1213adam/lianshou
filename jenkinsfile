@@ -5,7 +5,7 @@ node('CentOS')
 	 sh 'pwd'
 	}
 	
-	stage（'good')
+	stage('good')
 	{
 	 sh 'ls'
 	 }
