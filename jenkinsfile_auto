@@ -1,7 +1,7 @@
 node() {
 stage('donwload'){
  echo 'Building'
- bat 'C:\Python37\Scripts\robot --outputdir e:\\studytemp\\testsuite E:\\studytemp\\testsuite'
+ bat 'C:\\Python37\\Scripts\\robot --outputdir e:\\studytemp\\testsuite E:\\studytemp\\testsuite'
  
 }
 
