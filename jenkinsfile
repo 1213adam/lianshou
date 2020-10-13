@@ -1,13 +1,13 @@
-node('CentOS') 
+node() 
 {
 	stage('hello')
 	{
-	 sh 'pwd'
+	 bat 'dir'
 	}
 	
 	stage('good')
 	{
-	 sh 'ls'
+	 bat 'dir'
 	 }
 	
 }
