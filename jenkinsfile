@@ -2,12 +2,12 @@ node('CentOS')
 {
 	stage('hello')
 	{
-		sh 'pwd'
+	 sh 'pwd'
 	}
 	
-	stage（'good'）
+	stage（'good')
 	{
-		sh 'ls'
-	}
+	 sh 'ls'
+	 }
 	
 }
